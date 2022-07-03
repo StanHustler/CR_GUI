@@ -6,7 +6,7 @@
 
   <groupId>com.stan</groupId>
   <artifactId>cr_gui</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0-SNAPSHOT</version>
 
   <name>cr_gui</name>
   <!-- FIXME change it to the project's website -->
@@ -25,6 +25,13 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.fusesource/sigar -->
+    <dependency>
+        <groupId>org.fusesource</groupId>
+        <artifactId>sigar</artifactId>
+        <version>1.6.4</version>
+    </dependency>
+
   </dependencies>
 
   <build>
